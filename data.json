@@ -1,0 +1,51 @@
+{
+    "giftcards": [
+        "Amazon",
+        "Google"
+    ],
+    "services": [
+        "Netflix",
+        "Prime Video"
+    ],
+    "balances": {
+        "1188902990": {
+            "transactions": [
+                {
+                    "crypto": "Bitcoin",
+                    "txid": "0x1234567890abcdef",
+                    "amount": 100,
+                    "status": "approved",
+                    "timestamp": "2025-04-16T14:10:40.560927"
+                }
+            ],
+            "total_confirmed": 100
+        }
+    },
+    "topups": [
+        "Bitcoin (BTC) Deposit",
+        "Ethereum (ETH) Deposit",
+        "USDT (TRC20) Deposit",
+        "Litecoin (LTC) Deposit",
+        "Tron (TRX) Deposit",
+        "Cash App Deposit"
+    ],
+    "wallets": {
+        "Bitcoin": "3MVf4s1cRSaHov3NamUL1MDogH68SqB4E8",
+        "Ethereum": "0x390B61757281BaF23626382a6C5F5FCf32f7929C",
+        "Litecoin": "MSV3Uzy4JyYfZbXsEWWiDhmD4s4eGLJK2h",
+        "Cash App": "$1doteth"
+    },
+    "main_menu": [
+        [
+            "\ud83c\udf81 Gift Card",
+            "\ud83c\udff7\ufe0f Apply Coupon"
+        ],
+        [
+            "\ud83d\udcb8 Balance Top Ups",
+            "\ud83d\udc65 Referrals"
+        ],
+        [
+            "\ud83c\udfac Streaming Service"
+        ]
+    ]
+}

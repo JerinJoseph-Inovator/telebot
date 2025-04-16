@@ -5,8 +5,13 @@ from message_handlers import MessageHandlers
 from telegram.ext import CallbackQueryHandler
 from telegram.ext import CallbackQueryHandler
 from callback_handlers import CallbackHandlers
+import os
+from dotenv import load_dotenv
 
-BOT_TOKEN = "7961356330:AAHcDLCLSDgkoRQhXGfOgooX24cqS6Co0Mw"
+load_dotenv()
+
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+
 
 if __name__ == "__main__":
     app = ApplicationBuilder().token(BOT_TOKEN).build()
